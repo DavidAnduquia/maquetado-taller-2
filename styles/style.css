@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 10px;
+}
+
+.menu {
+  display: flex;
+  height: 110px;
+  align-items: center;
+}
+
+#btn {
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  background-color: #e40c34;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 7px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background-color: #ff5978;
+}
+
+#menu-izquierdo {
+  flex: 1 1 160px;
+}
+#menu-izquierdo img {
+  margin-left: 70px;
+  width: 50px;
+  height: 50px;
+  background-size: 25px 25px;
+}
+#menu-izquierdo :hover {
+  border-radius: 5px white;
+  opacity: 0.9;
+}
+#menu-izquierdo img:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+
+#menu-derecho {
+  flex: 1 1 320px;
+}
+#menu-derecho li {
+  margin-left: 10px;
+  display: inline;
+  padding: 5px;
+}
+#menu-derecho .btn-menu {
+  background-color: #b60626;
+  border-radius: 5px;
+}
+#menu-derecho a {
+  font-size: 18px;
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: bold;
+}
+#menu-derecho li:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+#menu-derecho li:hover a {
+  color: red;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+}
+.content .element-content {
+  height: 100px;
+  width: 85%;
+  align-self: center;
+}
+.content #titulo h1 {
+  font-family: "Maven Pro", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.content #contenido {
+  padding-top: 20px;
+}
+.content #contenido h4 {
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.content #contenido #btn {
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+}
+
+#row-car {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 80px;
+}
+#row-car .element-car {
+  width: 220px;
+  margin: 10px;
+  display: inline-block;
+}
+#row-car .element-car .carritos .car {
+  width: 100%;
+  border: 2px solid #e40c34;
+  border-radius: 5px;
+}
+#row-car .element-car .carritos .car:hover {
+  opacity: 0.9;
+}
+
+/*# sourceMappingURL=style.css.map */
